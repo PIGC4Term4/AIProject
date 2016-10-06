@@ -14,5 +14,7 @@ LA GALLE, C
 
 SHIELD, N
 
+CRAIG, Lachlan 
+
 
 If your name is not listed, confirm I have your GitHub username and you accepted the invitation to this repo that was sent by email.
