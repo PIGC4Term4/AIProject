@@ -156,4 +156,36 @@ LogInit: Object subsystem initialized
 [2016.11.03-23.52.45:906][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
 [2016.11.03-23.52.45:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
 [2016.11.03-23.52.45:912][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2016.11.03-23
+[2016.11.03-23.52.45:936][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.03-23.52.45:939][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.03-23.52.45:980][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.03-23.52.45:983][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.03-23.52.46:008][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.03-23.52.46:008][  0]LogLoad: Full Startup: 5.65 seconds (BP compile: 0.02 seconds)
+[2016.11.03-23.52.46:008][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.03-23.52.46:008][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.03-23.52.46:017][  0]LogOcInput: OculusInput pre-init called
+[2016.11.03-23.52.46:017][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.11.03-23.52.46:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.03-23.52.46:172][  0]LogRenderer: Reallocating scene render targets to support 664x228 (Frame:2).
+[2016.11.03-23.52.46:364][  1]LogAssetRegistry: Asset discovery search completed in 1.5053 seconds
+[2016.11.03-23.52.46:364][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.03-23.52.46:364][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.11.03-23.53.03:723][897]LogSavePackage: Save=81.44ms
+[2016.11.03-23.53.03:723][897]LogSavePackage: Moving '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Saved/AI_StarterMapF0F4C9FD4B50E460851D99B8B0A19C29.tmp' to '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/Maps/AI_StarterMap.umap'
+[2016.11.03-23.53.03:724][897]LogSavePackage: Total save time: 87.39ms
+[2016.11.03-23.53.03:725][897]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/Maps/AI_StarterMap.umap
+[2016.11.03-23.53.06:425][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExampleActor" FILE="../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/ExampleActor.uasset" SILENT=true
+[2016.11.03-23.53.06:435][215]LogSavePackage: Save=9.17ms
+[2016.11.03-23.53.06:435][215]LogSavePackage: Moving '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Saved/ExampleActor81FBA9F94F5056C7AC28F0BAD8E2BD32.tmp' to '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/ExampleActor.uasset'
+[2016.11.03-23.53.06:437][215]LogSavePackage: Total save time: 10.72ms
+[2016.11.03-23.53.06:437][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/ExampleActor.uasset
+[2016.11.04-00.02.36:558][310]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.11.04-00.02.37:031][311]LogRenderer: Reallocating scene render targets to support 692x456 (Frame:3129).
+[2016.11.04-00.02.42:935][965]BlueprintLog: New page: Compile ExampleActor
+[2016.11.04-00.02.43:041][965]BlueprintEditorCompileResults: Info [0602.65] Compile of ExampleActor successful! [in 106 ms]
+[2016.11.04-00.02.43:700][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExampleActor" FILE="../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/ExampleActor.uasset" SILENT=true
+[2016.11.04-00.02.43:721][ 32]LogSavePackage: Save=16.73ms
+[2016.11.04-00.02.43:721][ 32]LogSavePackage: Moving '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Saved/ExampleActor766E0A884F13889BB9E2FEB26B2DDC16.tmp' to '../../../../../../Users/webbj/Documents/Unreal Projects/AIProject/Content/ExampleActor.uasset'
+[2016.11.04-00.02.43:723][ 32]LogSavePackage: Total save time: 22.11ms
+[2016.11.04-00.02.43:723
