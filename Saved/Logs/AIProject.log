@@ -1,17 +1,18 @@
-﻿Log file open, 09/17/16 17:41:49
+﻿Log file open, 11/08/16 11:47:05
 LogInit:Display: Running engine for game: AIProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1571675743) SRandInit(1571675745).
-LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-LogStats: Stats thread started at 0.045748
+LogInit:Display: RandInit(-1239022965) SRandInit(-1239022964).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.064948
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
-LogInit: Command line:  
-LogInit: Base directory: D:/Unreal/4.11/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -29,389 +30,358 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.17-07.41.49:819][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.17-07.41.49:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.17-07.41.49:825][  0]LogInit: Computer: JAY-OFFICE
-[2016.09.17-07.41.49:825][  0]LogInit: User: Jay
-[2016.09.17-07.41.49:825][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.09.17-07.41.49:825][  0]LogInit: High frequency timer resolution =3.232145 MHz
-[2016.09.17-07.41.49:825][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.09.17-07.41.49:825][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.17-07.41.49:825][  0]LogMemory: Process Physical Memory: 312.97 MB used, 312.97 MB peak
-[2016.09.17-07.41.49:825][  0]LogMemory: Process Virtual Memory: 314.81 MB used, 314.81 MB peak
-[2016.09.17-07.41.49:825][  0]LogMemory: Physical Memory: 4585.91 MB used, 8137.99 MB total
-[2016.09.17-07.41.49:825][  0]LogMemory: Virtual Memory: 637.12 MB used, 134217728.00 MB total
-[2016.09.17-07.41.49:849][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.09.17-07.41.50:238][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.17-07.41.50:261][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti  ' (Feature Level 11_0)
-[2016.09.17-07.41.50:261][  0]LogD3D11RHI:       973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4068MB of shared system memory, 0 output[s]
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.17-07.41.50:267][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti  
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.09.17-07.41.50:268][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
-[2016.09.17-07.41.50:282][  0]LogD3D11RHI: Async texture creation enabled
-[2016.09.17-07.41.50:300][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Unreal Projects/GitHub/AIProject/AIProject/Intermediate/Shaders/WorkingDirectory/8572/).
-[2016.09.17-07.41.50:301][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jay/AppData/Local/Temp/UnrealShaderWorkingDir/B529710F437DEDEBD18ECDB6C759A0DB/'.
-[2016.09.17-07.41.50:301][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.17-07.41.51:265][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.17-07.41.51:269][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.17-07.41.51:272][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.17-07.41.51:276][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.17-07.41.51:280][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.17-07.41.51:283][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.17-07.41.51:286][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.17-07.41.51:289][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.17-07.41.51:293][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.17-07.41.51:296][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.17-07.41.51:299][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.17-07.41.51:322][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.17-07.41.51:325][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.17-07.41.51:327][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.17-07.41.51:330][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.17-07.41.51:334][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.17-07.41.51:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.17-07.41.51:387][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/GitHub/AIProject/AIProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/GitHub/AIProject/AIProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.17-07.41.51:451][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.17-07.41.51:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jay/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.17-07.41.51:642][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.17-07.41.51:643][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.17-07.41.51:680][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.17-07.41.52:037][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.09.17-07.41.52:037][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.09.17-07.41.52:037][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.17-07.41.52:041][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.17-07.41.52:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.17-07.41.52:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:701][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.17-07.41.52:821][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2016.09.17-07.41.52:957][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:028][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:034][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:039][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:646][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.09.17-07.41.53:712][  0]LogEngine: Initializing Engine...
-[2016.09.17-07.41.53:850][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.17-07.41.53:859][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.17-07.41.53:876][  0]LogInit: FAudioDevice initialized.
-[2016.09.17-07.41.53:899][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.09.17-07.41.53:903][  0]LogInit: Texture streaming: Enabled
-[2016.09.17-07.41.53:919][  0]LogInit: Transaction tracking system initialized
-[2016.09.17-07.41.53:933][  0]BlueprintLog: New page: Editor Load
-[2016.09.17-07.41.53:982][  0]LocalizationService: Info Localization service is disabled
-[2016.09.17-07.41.54:037][  0]LogConsoleResponse:Display: 
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.09.17-07.41.54:183][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/' took 0.02s
-[2016.09.17-07.41.54:183][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.54:183][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/GitHub/AIProject/AIProject/Content/Maps/AI_StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.17-07.41.54:183][  0]LightingResults: New page: Lighting Build
-[2016.09.17-07.41.54:186][  0]MapCheck: New page: Map Check
-[2016.09.17-07.41.54:186][  0]LightingResults: New page: Lighting Build
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:535][  0]LogAIModule: Creating AISystem for world AI_StarterMap
-[2016.09.17-07.41.54:544][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.17-07.41.54:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.17-07.41.54:581][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.882ms to complete.
-[2016.09.17-07.41.54:581][  0]LogFileHelpers: Loading map 'AI_StarterMap' took 0.398
-[2016.09.17-07.41.54:719][  0]LogCollectionManager: Loaded 0 collections in 0.001016 seconds
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Saved/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/Developers/Jay/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2016.09.17-07.41.54:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 1983 classes and 349 folders.
-[2016.09.17-07.41.54:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.17-07.41.54:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.09.17-07.41.54:781][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.09.17-07.41.54:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.09.17-07.41.54:788][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:825][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.09.17-07.41.54:827][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:849][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.17-07.41.54:865][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.17-07.41.54:890][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:891][  0]LogLoad: Full Startup: 5.65 seconds (BP compile: 0.04 seconds)
-[2016.09.17-07.41.54:891][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.09.17-07.41.54:891][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.09.17-07.41.54:900][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.17-07.41.54:900][  0]LogOcInput: OculusInput pre-init called
-[2016.09.17-07.41.54:947][  0]LogContentStreaming: Texture pool size now 700 MB
-[2016.09.17-07.41.55:090][  0]LogRenderer: Reallocating scene render targets to support 1236x524 (Frame:2).
-[2016.09.17-07.41.55:166][  1]LogAssetRegistry: Asset discovery search completed in 2.3669 seconds
-[2016.09.17-07.41.55:166][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.17-07.41.55:166][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2016.09.17-07.42.01:612][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.01:612][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.17-07.42.01:612][756]PIE: New page: PIE session: AI_StarterMap (18 Sep 2016 3:42:01 am)
-[2016.09.17-07.42.01:612][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_StarterMap
-[2016.09.17-07.42.01:623][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010617s)
-[2016.09.17-07.42.01:624][756]LogAIModule: Creating AISystem for world AI_StarterMap
-[2016.09.17-07.42.01:624][756]LogPlayLevel: PIE: World Init took: (0.000872s)
-[2016.09.17-07.42.01:624][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_StarterMap.AI_StarterMap to /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap (0.011720s)
-[2016.09.17-07.42.01:652][756]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.17-07.42.01:657][756]LogInit: FAudioDevice initialized.
-[2016.09.17-07.42.02:150][756]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.09.17-07.42.02:154][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap up for play (max tick rate 0) at 2016.09.17-17.42.02
-[2016.09.17-07.42.02:154][756]LogWorld: Bringing up level for play took: 0.003366
-[2016.09.17-07.42.02:155][756]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.09.17-07.42.02:157][756]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
-[2016.09.17-07.42.02:168][756]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AI_StarterMap 0.158
-[2016.09.17-07.42.02:168][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.02:200][757]LogRenderer: Reallocating scene render targets to support 1236x628 (Frame:751).
-[2016.09.17-07.42.09:618][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.09:660][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.48.41:996][195]Cmd: QUIT_EDITOR
-[2016.09.17-07.48.42:149][195]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.17-07.48.42:212][195]LogExit: Preparing to exit.
-[2016.09.17-07.48.42:970][195]LogExit: Editor shut down
-[2016.09.17-07.48.42:970][195]LogExit: Transaction tracking system shut down
-[2016.09.17-07.48.43:075][195]LogObj: Freed 0b from 0 cluster array pools.
-[2016.09.17-07.48.43:075][195]LogExit: Object subsystem successfully closed.
-[2016.09.17-07.48.43:091][195]LogD3D11RHI: Shutdown
-[2016.09.17-07.48.43:091][195]LogD3D11RHI: CleanupD3DDevice
-[2016.09.17-07.48.43:157][195]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.09.17-07.48.43:215][195]LogDerivedDataCache: Shutdown
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (117)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PlayUp (116)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.09.17-07.48.44:366][195]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.09.17-07.48.44:366][195]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.09.17-07.48.44:367][195]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
-[2016.09.17-07.48.44:368][195]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module VaRestPlugin (92)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.09.17-07.48.44:628][195]LogDerivedDataCache: Shutdown
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.09.17-07.48.46:134][195]LogExit: Exiting.
-[2016.09.17-07.48.46:136][195]Log file closed, 09/17/16 17:48:46
+[2016.11.08-00.47.05:881][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.47.05:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-00.47.05:890][  0]LogInit: Computer: FRAW108-4Q5PF42
+[2016.11.08-00.47.05:890][  0]LogInit: User: H201363463
+[2016.11.08-00.47.05:890][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.08-00.47.05:891][  0]LogInit: High frequency timer resolution =3.515636 MHz
+[2016.11.08-00.47.05:891][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.08-00.47.05:891][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-00.47.05:891][  0]LogMemory: Process Physical Memory: 313.60 MB used, 313.60 MB peak
+[2016.11.08-00.47.05:891][  0]LogMemory: Process Virtual Memory: 314.94 MB used, 314.94 MB peak
+[2016.11.08-00.47.05:891][  0]LogMemory: Physical Memory: 4666.47 MB used, 16298.84 MB total
+[2016.11.08-00.47.05:891][  0]LogMemory: Virtual Memory: 650.65 MB used, 134217728.00 MB total
+[2016.11.08-00.47.05:915][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.11.08-00.47.06:241][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.08-00.47.06:247][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.11.08-00.47.06:247][  0]LogD3D11RHI:       2022MB of dedicated video memory, 0MB of dedicated system memory, and 7936MB of shared system memory, 1 output[s]
+[2016.11.08-00.47.06:251][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.11.08-00.47.06:251][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2016.11.08-00.47.06:252][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.08-00.47.06:252][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.11.08-00.47.06:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.08-00.47.06:256][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.08-00.47.06:256][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.11.08-00.47.06:256][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.11.08-00.47.06:256][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.11.08-00.47.06:256][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-00.47.06:260][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.11.08-00.47.06:271][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Intermediate/Shaders/WorkingDirectory/6960/).
+[2016.11.08-00.47.06:271][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/H20136~1/AppData/Local/Temp/UnrealShaderWorkingDir/CE2FA12D4CAAAFA46604619385FAF859/'.
+[2016.11.08-00.47.06:271][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-00.47.07:045][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-00.47.07:048][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-00.47.07:051][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-00.47.07:054][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-00.47.07:057][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-00.47.07:059][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-00.47.07:061][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-00.47.07:063][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-00.47.07:066][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-00.47.07:068][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-00.47.07:070][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-00.47.07:074][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-00.47.07:074][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-00.47.07:075][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-00.47.07:090][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-00.47.07:092][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.08-00.47.07:094][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-00.47.07:096][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-00.47.07:099][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-00.47.07:099][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-00.47.07:145][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/h201363463/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/h201363463/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-00.47.07:184][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-00.47.07:196][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-00.47.07:208][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h201363463/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-00.47.07:340][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.47.07:341][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.08-00.47.07:366][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.08-00.47.07:460][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-00.47.07:460][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-00.47.07:460][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.08-00.47.07:672][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.11.08-00.47.07:672][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.11.08-00.47.07:672][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.08-00.47.07:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-00.47.07:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-00.47.07:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-00.47.07:808][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.08-00.47.07:808][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.08-00.47.07:808][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.08-00.47.07:808][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.08-00.47.07:808][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.08-00.47.07:808][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.08-00.47.08:204][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-00.47.08:340][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.11.08-00.47.08:437][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.47.08:457][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.47.08:465][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.47.08:469][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.47.08:536][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.08-00.47.08:590][  0]LogEngine: Initializing Engine...
+[2016.11.08-00.47.08:707][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.08-00.47.08:710][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.47.08:716][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-00.47.08:734][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/h201363463/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.47.08:739][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-00.47.08:755][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-00.47.08:768][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-00.47.08:810][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-00.47.08:847][  0]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part1-Overview'
+[2016.11.08-00.47.08:847][  0]LogLinker:Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part1-Overview'
+[2016.11.08-00.47.08:847][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part1-Overview.Part1-Overview_C'
+[2016.11.08-00.47.08:856][  0]LogConsoleResponse:Display: 
+[2016.11.08-00.47.08:929][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.08-00.47.08:929][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.08-00.47.08:929][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.08-00.47.08:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/' took 0.01s
+[2016.11.08-00.47.08:959][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.47.08:959][  0]Cmd: MAP LOAD FILE="../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/Maps/AI_StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-00.47.08:959][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.47.08:961][  0]MapCheck: New page: Map Check
+[2016.11.08-00.47.08:961][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.47.09:776][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:858][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindHidingSpot.uasset.
+[2016.11.08-00.47.09:866][  0]LoadErrors:Error: Error /Game/AI/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindHidingSpot.uasset.
+[2016.11.08-00.47.09:866][  0]LoadErrors:Error: Error /Game/AI/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindHidingSpot.uasset.
+[2016.11.08-00.47.09:866][  0]LoadErrors:Error: Error /Game/AI/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:866][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindHidingSpot.uasset.
+[2016.11.08-00.47.09:866][  0]LoadErrors:Error: Error /Game/AI/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindHidingSpot.uasset.
+[2016.11.08-00.47.09:867][  0]LoadErrors:Error: Error /Game/AI/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:867][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:867][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:867][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:873][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:873][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:873][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:873][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:874][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:874][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:874][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:874][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:874][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:874][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:875][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:875][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:875][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:875][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:875][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:875][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:876][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:876][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:876][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:876][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:876][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:877][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:877][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:877][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:877][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:877][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:877][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:877][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:877][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindPlayer.uasset.
+[2016.11.08-00.47.09:879][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindPlayer.uasset.
+[2016.11.08-00.47.09:879][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:879][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindPlayer.uasset.
+[2016.11.08-00.47.09:879][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindPlayer.uasset.
+[2016.11.08-00.47.09:880][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/FindPlayer.uasset.
+[2016.11.08-00.47.09:880][  0]LoadErrors:Error: Error /Game/AI/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:880][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:880][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:880][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:881][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:881][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:881][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:881][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:881][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:881][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:882][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:882][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:882][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:882][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:882][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/AI/PatrolAI_BT.uasset.
+[2016.11.08-00.47.09:882][  0]LoadErrors:Error: Error /Game/AI/PatrolAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:985][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindPlayer
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:985][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindPlayer
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:985][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindHidingSpot
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindHidingSpot
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2016.11.08-00.47.09:986][  0]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.08-00.47.09:986][  0]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:289][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.08-00.47.10:306][  0]LogAIModule: Creating AISystem for world AI_StarterMap
+[2016.11.08-00.47.10:312][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-00.47.10:313][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-00.47.10:359][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.585ms to complete.
+[2016.11.08-00.47.10:359][  0]LogFileHelpers: Loading map 'AI_StarterMap' took 1.399
+[2016.11.08-00.47.10:506][  0]LogCollectionManager: Loaded 0 collections in 0.000867 seconds
+[2016.11.08-00.47.10:544][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Saved/Collections/' took 0.01s
+[2016.11.08-00.47.10:544][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/Developers/H201363463/Collections/' took 0.01s
+[2016.11.08-00.47.10:544][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/Collections/' took 0.01s
+[2016.11.08-00.47.10:544][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.08-00.47.10:550][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 1979 classes and 343 folders.
+[2016.11.08-00.47.10:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.08-00.47.10:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.08-00.47.10:552][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.11.08-00.47.10:555][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.47.10:566][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.47.10:638][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.47.10:642][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.47.10:693][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-00.47.10:699][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.08-00.47.10:727][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.47.10:728][  0]LogLoad: Full Startup: 7.30 seconds (BP compile: 0.40 seconds)
+[2016.11.08-00.47.10:728][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.08-00.47.10:728][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.08-00.47.10:737][  0]LogOcInput: OculusInput pre-init called
+[2016.11.08-00.47.10:738][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.11.08-00.47.10:739][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_41954': EnvironmentQueryGraphNode_Option /Game/AI/FindHidingSpot.FindHidingSpot:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_0
+[2016.11.08-00.47.10:739][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_41953': EnvironmentQueryGraphNode_Root /Game/AI/FindHidingSpot.FindHidingSpot:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2016.11.08-00.47.10:739][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_49195': EnvironmentQueryGraphNode_Option /Game/AI/FindPlayer.FindPlayer:EnvironmentQueryGraph_2.EnvironmentQueryGraphNode_Option_16
+[2016.11.08-00.47.10:739][  0]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_49194': EnvironmentQueryGraphNode_Root /Game/AI/FindPlayer.FindPlayer:EnvironmentQueryGraph_2.EnvironmentQueryGraphNode_Root_2
+[2016.11.08-00.47.10:791][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.08-00.47.10:918][  0]LogRenderer: Reallocating scene render targets to support 1156x576 (Frame:2).
+[2016.11.08-00.47.11:139][  1]LogAssetRegistry: Asset discovery search completed in 2.8206 seconds
+[2016.11.08-00.47.11:139][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.08-00.47.11:139][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.11.08-00.47.22:408][240]LogContentBrowser: Native class hierarchy updated for 'EnvironmentQueryEditor' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2016.11.08-00.47.36:372][779]LogSavePackage: Save=100.75ms
+[2016.11.08-00.47.36:372][779]LogSavePackage: Moving '../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Saved/AI_StarterMapE23C93C34A66CA5A14D38F8EF9161A0D.tmp' to '../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/Maps/AI_StarterMap.umap'
+[2016.11.08-00.47.36:374][779]LogSavePackage: Total save time: 106.31ms
+[2016.11.08-00.47.36:374][779]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/h201363463/Documents/Unreal Projects/GitHub/AIProject/Content/Maps/AI_StarterMap.umap
+[2016.11.08-00.47.37:758][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.08-00.47.37:758][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.47.37:758][940]PIE: New page: PIE session: AI_StarterMap (8 Nov 2016 9:47:37 pm)
+[2016.11.08-00.47.37:758][940]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_StarterMap
+[2016.11.08-00.47.37:767][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009043s)
+[2016.11.08-00.47.37:767][940]LogAIModule: Creating AISystem for world AI_StarterMap
+[2016.11.08-00.47.37:767][940]LogPlayLevel: PIE: World Init took: (0.000408s)
+[2016.11.08-00.47.37:768][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_StarterMap.AI_StarterMap to /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap (0.009638s)
+[2016.11.08-00.47.37:779][940]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.47.37:784][940]LogInit: FAudioDevice initialized.
+[2016.11.08-00.47.37:854][940]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.08-00.47.37:860][940]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap up for play (max tick rate 0) at 2016.11.08-11.47.37
+[2016.11.08-00.47.37:862][940]LogWorld: Bringing up level for play took: 0.006824
+[2016.11.08-00.47.37:864][940]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.11.08-00.47.37:870][940]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 9 classes and 0 folders.
+[2016.11.08-00.47.37:885][940]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AI_StarterMap 0.71
+[2016.11.08-00.47.37:885][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.08-00.47.37:915][941]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2286).
+[2016.11.08-00.48.18:544][610]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 98.0
+[2016.11.08-00.48.20:546][832]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 97.0
+[2016.11.08-00.48.22:182][ 16]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 98.0
+[2016.11.08-00.48.22:553][ 54]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 96.0
+[2016.11.08-00.48.24:189][216]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 97.0
+[2016.11.08-00.48.24:558][252]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 95.0
+[2016.11.08-00.48.26:193][396]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 96.0
+[2016.11.08-00.48.26:559][431]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 94.0
+[2016.11.08-00.48.27:101][484]LogBlueprintUserMessages: [BTT_AttackTarget_C_6] 98.0
+[2016.11.08-00.48.28:199][596]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 95.0
+[2016.11.08-00.48.28:564][631]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 93.0
+[2016.11.08-00.48.28:911][664]LogBlueprintUserMessages: [BTT_AttackTarget_C_3] 98.0
+[2016.11.08-00.48.29:112][683]LogBlueprintUserMessages: [BTT_AttackTarget_C_6] 97.0
+[2016.11.08-00.48.30:204][785]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 94.0
+[2016.11.08-00.48.30:571][820]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 92.0
+[2016.11.08-00.48.31:464][906]LogBlueprintUserMessages: [BTT_AttackTarget_C_3] 97.0
+[2016.11.08-00.48.31:554][915]LogBlueprintUserMessages: [BTT_AttackTarget_C_6] 96.0
+[2016.11.08-00.48.32:212][981]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 93.0
+[2016.11.08-00.48.32:580][ 19]LogBlueprintUserMessages: [BTT_AttackTarget_C_1] 91.0
+[2016.11.08-00.48.33:473][106]LogBlueprintUserMessages: [BTT_AttackTarget_C_3] 96.0
+[2016.11.08-00.48.33:557][115]LogBlueprintUserMessages: [BTT_AttackTarget_C_6] 95.0
+[2016.11.08-00.48.33:771][138]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	BTD_DistanceCheck_C /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap:PersistentLevel.AIController_6.BTComponent.BTD_DistanceCheck_C_6
+	Function /Game/AI/BTD_DistanceCheck.BTD_DistanceCheck_C:PerformConditionCheckAI:0084
+[2016.11.08-00.48.33:771][138]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'PerformConditionCheckAI' from node: Return Node in graph: PerformConditionCheckAI in object: BTD_DistanceCheck
+[2016.11.08-00.48.40:323][898]LogBlueprintUserMessages: [BTT_AttackTarget_C_2] 92.0
+[2016.11.08-00.48.44:845][339]LogBlueprintUserMessages: [BTT_AttackTarget_C_5] 98.0
+[2016.11.08-00.48.46:856][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Ga
