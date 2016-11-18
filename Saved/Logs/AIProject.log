@@ -1,17 +1,18 @@
-﻿Log file open, 09/17/16 17:41:49
+﻿Log file open, 11/18/16 12:10:05
 LogInit:Display: Running engine for game: AIProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1571675743) SRandInit(1571675745).
-LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-LogStats: Stats thread started at 0.045748
+LogInit:Display: RandInit(2135332909) SRandInit(2135332910).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.064491
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
-LogInit: Command line:  
-LogInit: Base directory: D:/Unreal/4.11/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -29,389 +30,623 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.17-07.41.49:819][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.17-07.41.49:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.17-07.41.49:825][  0]LogInit: Computer: JAY-OFFICE
-[2016.09.17-07.41.49:825][  0]LogInit: User: Jay
-[2016.09.17-07.41.49:825][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.09.17-07.41.49:825][  0]LogInit: High frequency timer resolution =3.232145 MHz
-[2016.09.17-07.41.49:825][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.09.17-07.41.49:825][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.17-07.41.49:825][  0]LogMemory: Process Physical Memory: 312.97 MB used, 312.97 MB peak
-[2016.09.17-07.41.49:825][  0]LogMemory: Process Virtual Memory: 314.81 MB used, 314.81 MB peak
-[2016.09.17-07.41.49:825][  0]LogMemory: Physical Memory: 4585.91 MB used, 8137.99 MB total
-[2016.09.17-07.41.49:825][  0]LogMemory: Virtual Memory: 637.12 MB used, 134217728.00 MB total
-[2016.09.17-07.41.49:849][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.09.17-07.41.50:238][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.17-07.41.50:261][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti  ' (Feature Level 11_0)
-[2016.09.17-07.41.50:261][  0]LogD3D11RHI:       973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4068MB of shared system memory, 0 output[s]
-[2016.09.17-07.41.50:263][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.17-07.41.50:267][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti  
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.09.17-07.41.50:268][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.09.17-07.41.50:268][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
-[2016.09.17-07.41.50:282][  0]LogD3D11RHI: Async texture creation enabled
-[2016.09.17-07.41.50:300][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Unreal Projects/GitHub/AIProject/AIProject/Intermediate/Shaders/WorkingDirectory/8572/).
-[2016.09.17-07.41.50:301][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jay/AppData/Local/Temp/UnrealShaderWorkingDir/B529710F437DEDEBD18ECDB6C759A0DB/'.
-[2016.09.17-07.41.50:301][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.17-07.41.51:265][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.17-07.41.51:269][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.17-07.41.51:272][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.17-07.41.51:276][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.17-07.41.51:280][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.17-07.41.51:283][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.17-07.41.51:286][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.17-07.41.51:289][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.17-07.41.51:293][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.17-07.41.51:296][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.17-07.41.51:299][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.17-07.41.51:306][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.17-07.41.51:322][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.17-07.41.51:325][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.17-07.41.51:327][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.17-07.41.51:330][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.17-07.41.51:334][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.17-07.41.51:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.17-07.41.51:387][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/GitHub/AIProject/AIProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/GitHub/AIProject/AIProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.17-07.41.51:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.17-07.41.51:451][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.17-07.41.51:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jay/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.17-07.41.51:642][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.17-07.41.51:643][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.17-07.41.51:680][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.17-07.41.51:799][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.17-07.41.52:037][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.09.17-07.41.52:037][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.09.17-07.41.52:037][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.17-07.41.52:041][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.17-07.41.52:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.17-07.41.52:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.52:701][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.17-07.41.52:821][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2016.09.17-07.41.52:957][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:028][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:034][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:039][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:169][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.09.17-07.41.53:169][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.09.17-07.41.53:646][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.09.17-07.41.53:712][  0]LogEngine: Initializing Engine...
-[2016.09.17-07.41.53:850][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.17-07.41.53:859][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.17-07.41.53:876][  0]LogInit: FAudioDevice initialized.
-[2016.09.17-07.41.53:899][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Jay/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.09.17-07.41.53:903][  0]LogInit: Texture streaming: Enabled
-[2016.09.17-07.41.53:919][  0]LogInit: Transaction tracking system initialized
-[2016.09.17-07.41.53:933][  0]BlueprintLog: New page: Editor Load
-[2016.09.17-07.41.53:982][  0]LocalizationService: Info Localization service is disabled
-[2016.09.17-07.41.54:037][  0]LogConsoleResponse:Display: 
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.17-07.41.54:144][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.09.17-07.41.54:183][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/' took 0.02s
-[2016.09.17-07.41.54:183][  0]SourceControl: Info Source control is disabled
-[2016.09.17-07.41.54:183][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/GitHub/AIProject/AIProject/Content/Maps/AI_StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.17-07.41.54:183][  0]LightingResults: New page: Lighting Build
-[2016.09.17-07.41.54:186][  0]MapCheck: New page: Map Check
-[2016.09.17-07.41.54:186][  0]LightingResults: New page: Lighting Build
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:454][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.17-07.41.54:535][  0]LogAIModule: Creating AISystem for world AI_StarterMap
-[2016.09.17-07.41.54:544][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.17-07.41.54:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.17-07.41.54:581][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.882ms to complete.
-[2016.09.17-07.41.54:581][  0]LogFileHelpers: Loading map 'AI_StarterMap' took 0.398
-[2016.09.17-07.41.54:719][  0]LogCollectionManager: Loaded 0 collections in 0.001016 seconds
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Saved/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/Developers/Jay/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitHub/AIProject/AIProject/Content/Collections/' took 0.01s
-[2016.09.17-07.41.54:763][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2016.09.17-07.41.54:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 1983 classes and 349 folders.
-[2016.09.17-07.41.54:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.17-07.41.54:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.09.17-07.41.54:781][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.09.17-07.41.54:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.09.17-07.41.54:788][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:825][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.09.17-07.41.54:827][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:849][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.17-07.41.54:865][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.17-07.41.54:890][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.09.17-07.41.54:891][  0]LogLoad: Full Startup: 5.65 seconds (BP compile: 0.04 seconds)
-[2016.09.17-07.41.54:891][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.09.17-07.41.54:891][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.09.17-07.41.54:900][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.17-07.41.54:900][  0]LogOcInput: OculusInput pre-init called
-[2016.09.17-07.41.54:947][  0]LogContentStreaming: Texture pool size now 700 MB
-[2016.09.17-07.41.55:090][  0]LogRenderer: Reallocating scene render targets to support 1236x524 (Frame:2).
-[2016.09.17-07.41.55:166][  1]LogAssetRegistry: Asset discovery search completed in 2.3669 seconds
-[2016.09.17-07.41.55:166][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.17-07.41.55:166][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2016.09.17-07.42.01:612][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.01:612][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.17-07.42.01:612][756]PIE: New page: PIE session: AI_StarterMap (18 Sep 2016 3:42:01 am)
-[2016.09.17-07.42.01:612][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_StarterMap
-[2016.09.17-07.42.01:623][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010617s)
-[2016.09.17-07.42.01:624][756]LogAIModule: Creating AISystem for world AI_StarterMap
-[2016.09.17-07.42.01:624][756]LogPlayLevel: PIE: World Init took: (0.000872s)
-[2016.09.17-07.42.01:624][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_StarterMap.AI_StarterMap to /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap (0.011720s)
-[2016.09.17-07.42.01:652][756]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.17-07.42.01:657][756]LogInit: FAudioDevice initialized.
-[2016.09.17-07.42.02:150][756]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.09.17-07.42.02:154][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_StarterMap.AI_StarterMap up for play (max tick rate 0) at 2016.09.17-17.42.02
-[2016.09.17-07.42.02:154][756]LogWorld: Bringing up level for play took: 0.003366
-[2016.09.17-07.42.02:155][756]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.09.17-07.42.02:157][756]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
-[2016.09.17-07.42.02:168][756]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AI_StarterMap 0.158
-[2016.09.17-07.42.02:168][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.02:200][757]LogRenderer: Reallocating scene render targets to support 1236x628 (Frame:751).
-[2016.09.17-07.42.09:618][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.42.09:660][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/Maps/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
-[2016.09.17-07.48.41:996][195]Cmd: QUIT_EDITOR
-[2016.09.17-07.48.42:149][195]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.17-07.48.42:212][195]LogExit: Preparing to exit.
-[2016.09.17-07.48.42:970][195]LogExit: Editor shut down
-[2016.09.17-07.48.42:970][195]LogExit: Transaction tracking system shut down
-[2016.09.17-07.48.43:075][195]LogObj: Freed 0b from 0 cluster array pools.
-[2016.09.17-07.48.43:075][195]LogExit: Object subsystem successfully closed.
-[2016.09.17-07.48.43:091][195]LogD3D11RHI: Shutdown
-[2016.09.17-07.48.43:091][195]LogD3D11RHI: CleanupD3DDevice
-[2016.09.17-07.48.43:157][195]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.09.17-07.48.43:215][195]LogDerivedDataCache: Shutdown
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.09.17-07.48.43:216][195]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.09.17-07.48.43:218][195]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.09.17-07.48.43:219][195]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.09.17-07.48.43:220][195]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.09.17-07.48.44:141][195]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.09.17-07.48.44:142][195]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.09.17-07.48.44:186][195]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.09.17-07.48.44:364][195]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (117)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PlayUp (116)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.09.17-07.48.44:365][195]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.09.17-07.48.44:366][195]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.09.17-07.48.44:366][195]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.09.17-07.48.44:367][195]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
-[2016.09.17-07.48.44:368][195]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
-[2016.09.17-07.48.44:522][195]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module VaRestPlugin (92)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.09.17-07.48.44:623][195]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.09.17-07.48.44:624][195]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.09.17-07.48.44:628][195]LogDerivedDataCache: Shutdown
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.09.17-07.48.44:628][195]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.09.17-07.48.44:629][195]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.09.17-07.48.46:130][195]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.09.17-07.48.46:131][195]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.09.17-07.48.46:132][195]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.09.17-07.48.46:134][195]LogExit: Exiting.
-[2016.09.17-07.48.46:136][195]Log file closed, 09/17/16 17:48:46
+[2016.11.18-01.10.05:603][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-01.10.05:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.18-01.10.05:620][  0]LogInit: Computer: FRAW108-BN5PF42
+[2016.11.18-01.10.05:620][  0]LogInit: User: V201624468
+[2016.11.18-01.10.05:620][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.18-01.10.05:620][  0]LogInit: High frequency timer resolution =3.515627 MHz
+[2016.11.18-01.10.05:621][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.18-01.10.05:621][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.18-01.10.05:621][  0]LogMemory: Process Physical Memory: 313.23 MB used, 313.23 MB peak
+[2016.11.18-01.10.05:621][  0]LogMemory: Process Virtual Memory: 314.96 MB used, 314.96 MB peak
+[2016.11.18-01.10.05:621][  0]LogMemory: Physical Memory: 4270.59 MB used, 16298.84 MB total
+[2016.11.18-01.10.05:621][  0]LogMemory: Virtual Memory: 658.56 MB used, 134217728.00 MB total
+[2016.11.18-01.10.05:642][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.11.18-01.10.05:968][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.18-01.10.05:973][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2016.11.18-01.10.05:973][  0]LogD3D11RHI:       2022MB of dedicated video memory, 0MB of dedicated system memory, and 7936MB of shared system memory, 1 output[s]
+[2016.11.18-01.10.05:978][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.11.18-01.10.05:978][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2016.11.18-01.10.05:979][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.18-01.10.05:979][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.11.18-01.10.05:979][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.18-01.10.05:982][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.18-01.10.05:982][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2016.11.18-01.10.05:982][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.11.18-01.10.05:982][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.11.18-01.10.05:982][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.18-01.10.05:985][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.11.18-01.10.05:998][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Intermediate/Shaders/WorkingDirectory/1908/).
+[2016.11.18-01.10.05:998][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/44D6246B4A1C46BA82AA68A18F6AD8C7/'.
+[2016.11.18-01.10.05:998][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.18-01.10.06:748][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.18-01.10.06:751][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.18-01.10.06:754][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.18-01.10.06:757][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.18-01.10.06:760][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.18-01.10.06:762][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.18-01.10.06:764][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.18-01.10.06:766][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.18-01.10.06:768][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.18-01.10.06:770][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.18-01.10.06:772][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.18-01.10.06:777][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.18-01.10.06:777][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.18-01.10.06:777][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.18-01.10.06:792][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.18-01.10.06:794][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.18-01.10.06:796][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.18-01.10.06:798][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.18-01.10.06:800][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.18-01.10.06:800][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.18-01.10.06:843][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.18-01.10.06:881][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.18-01.10.06:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.18-01.10.06:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.18-01.10.07:016][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-01.10.07:017][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.18-01.10.07:042][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.18-01.10.07:134][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.18-01.10.07:134][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.18-01.10.07:134][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.18-01.10.07:329][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.11.18-01.10.07:329][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2016.11.18-01.10.07:329][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.18-01.10.07:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.18-01.10.07:401][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.18-01.10.07:402][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.18-01.10.07:472][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.18-01.10.07:472][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.18-01.10.07:472][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.18-01.10.07:472][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.18-01.10.07:472][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.18-01.10.07:472][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.18-01.10.07:862][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.18-01.10.08:002][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.11.18-01.10.08:091][  0]SourceControl: Info Source control is disabled
+[2016.11.18-01.10.08:111][  0]SourceControl: Info Source control is disabled
+[2016.11.18-01.10.08:115][  0]SourceControl: Info Source control is disabled
+[2016.11.18-01.10.08:120][  0]SourceControl: Info Source control is disabled
+[2016.11.18-01.10.08:182][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.18-01.10.08:233][  0]LogEngine: Initializing Engine...
+[2016.11.18-01.10.08:338][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.18-01.10.08:342][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.18-01.10.08:347][  0]LogInit: FAudioDevice initialized.
+[2016.11.18-01.10.08:366][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.18-01.10.08:370][  0]LogInit: Texture streaming: Enabled
+[2016.11.18-01.10.08:386][  0]LogInit: Transaction tracking system initialized
+[2016.11.18-01.10.08:399][  0]BlueprintLog: New page: Editor Load
+[2016.11.18-01.10.08:439][  0]LocalizationService: Info Localization service is disabled
+[2016.11.18-01.10.08:482][  0]LogConsoleResponse:Display: 
+[2016.11.18-01.10.08:557][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.18-01.10.08:557][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.18-01.10.08:557][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.18-01.10.08:586][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/Unreal Projects/AIProject/Content/' took 0.01s
+[2016.11.18-01.10.08:586][  0]SourceControl: Info Source control is disabled
+[2016.11.18-01.10.08:586][  0]Cmd: MAP LOAD FILE="../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/Maps/AI_StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.18-01.10.08:687][  0]LightingResults: New page: Lighting Build
+[2016.11.18-01.10.08:695][  0]MapCheck: New page: Map Check
+[2016.11.18-01.10.08:695][  0]LightingResults: New page: Lighting Build
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.08:949][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue:SoundCueGraph_3.SoundCueGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.11.18-01.10.09:022][  0]LogAIModule: Creating AISystem for world AI_StarterMap
+[2016.11.18-01.10.09:027][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.18-01.10.09:046][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.18-01.10.09:074][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.614ms to complete.
+[2016.11.18-01.10.09:074][  0]LogFileHelpers: Loading map 'AI_StarterMap' took 0.488
+[2016.11.18-01.10.09:169][  0]LogCollectionManager: Loaded 0 collections in 0.001055 seconds
+[2016.11.18-01.10.09:205][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/Unreal Projects/AIProject/Saved/Collections/' took 0.01s
+[2016.11.18-01.10.09:205][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/Unreal Projects/AIProject/Content/Developers/V201624468/Collections/' took 0.01s
+[2016.11.18-01.10.09:205][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/Unreal Projects/AIProject/Content/Collections/' took 0.01s
+[2016.11.18-01.10.09:205][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.18-01.10.09:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1979 classes and 343 folders.
+[2016.11.18-01.10.09:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.18-01.10.09:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.18-01.10.09:214][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.11.18-01.10.09:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.11.18-01.10.09:220][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.11.18-01.10.09:245][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.18-01.10.09:247][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.11.18-01.10.09:264][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.18-01.10.09:268][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.18-01.10.09:293][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.18-01.10.09:293][  0]LogLoad: Full Startup: 6.12 seconds (BP compile: 0.02 seconds)
+[2016.11.18-01.10.09:293][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.18-01.10.09:293][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.18-01.10.09:302][  0]LogOcInput: OculusInput pre-init called
+[2016.11.18-01.10.09:303][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.11.18-01.10.09:322][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.11.18-01.10.09:443][  0]LogRenderer: Reallocating scene render targets to support 1020x576 (Frame:2).
+[2016.11.18-01.10.14:601][589]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.18-01.10.14:799][612]LogAssetRegistry: Asset discovery search completed in 6.8190 seconds
+[2016.11.18-01.10.14:799][612]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2016.11.18-01.10.18:975][ 88]LogBlueprint:Warning: [compiler BaseCharacter] Warning 'Enemy Patrol AI Character' does not inherit from 'Base Character' ( Cast To EnemyPatrolAI_Character  would always fail).
+[2016.11.18-01.10.18:979][ 88]LogBlueprint:Warning: [compiler BaseCharacter] Warning [0015.81] Compile of BaseCharacter successful, but with 1 Warning(s) [in 12 ms]
+[2016.11.18-01.10.18:979][ 88]LogBlueprint:Warning: [compiler BaseCharacter] Warning [0015.81] Compile of BaseCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2016.11.18-01.10.18:979][ 88]LogBlueprint:Warning: [compiler BaseCharacter] Warning [0015.81] Compile of BaseCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindHidingSpot.uasset.
+[2016.11.18-01.10.19:402][ 88]LoadErrors:Error: Error /Game/AI/Task_Decorator_Service/FindHidingSpot : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindHidingSpot.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindHidingSpot.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindHidingSpot.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindHidingSpot.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:402][ 88]LoadErrors:Error: Error /Game/AI/HostageAI/HostageAI_BT : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:402][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:403][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindPlayer.uasset.
+[2016.11.18-01.10.19:404][ 88]LoadErrors:Error: Error /Game/AI/Task_Decorator_Service/FindPlayer : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindPlayer.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindPlayer.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindPlayer.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/Task_Decorator_Service/FindPlayer.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:404][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.19:405][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading ../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/HostageAI/HostageAI_BT.uasset.
+[2016.11.18-01.10.19:463][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'CaptureHostage' for  InputAction CaptureHostage 
+[2016.11.18-01.10.19:463][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.11.18-01.10.19:469][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.30] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 16 ms]
+[2016.11.18-01.10.19:469][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.30] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.11.18-01.10.19:469][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.30] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2016.11.18-01.10.19:639][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'CaptureHostage' for  InputAction CaptureHostage 
+[2016.11.18-01.10.19:639][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.11.18-01.10.19:646][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.48] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 17 ms]
+[2016.11.18-01.10.19:646][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.48] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.11.18-01.10.19:647][ 88]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0016.48] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 1 ms]
+[2016.11.18-01.10.20:116][ 88]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:116][ 88]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:117][ 88]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:117][ 88]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush10.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush10.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush12.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush12.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush13.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush13.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush14.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush15.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush15.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush16.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush16.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush17.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush17.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush18.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush18.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:120][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush2.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush2.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:121][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush3.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush3.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:121][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush4.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush4.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:121][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush5.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush5.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:121][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush6.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush6.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:122][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush7.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush7.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:122][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush8.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush8.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:122][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush9.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush9.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:122][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.CurvedStairBrush.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.CurvedStairBrush.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:122][ 88]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush.BrushComponent0 and BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:123][ 88]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:126][ 88]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:139][ 88]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Maps/AI_StarterMap.AI_StarterMap:PersistentLevel.Floor.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Floor.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.10.20:140][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:140][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:140][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindPlayer
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraphNode_Root Referenced by PackageMetaData
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LoadErrors: Info Failed to load /Script/EnvironmentQueryEditor.EnvironmentQueryGraph Referenced by FindHidingSpot
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2016.11.18-01.10.20:141][ 88]LogLinker:Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading NULL.
+[2016.11.18-01.10.20:535][ 88]LogAIModule: Creating AISystem for world AI_StarterMap
+[2016.11.18-01.10.20:636][ 88]Cmd: MAP LOAD FILE="../../../../../../Users/v201624468/Documents/Unreal Projects/AIProject/Content/AI/AI_StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.18-01.10.20:636][ 88]LightingResults: New page: Lighting Build
+[2016.11.18-01.10.20:648][ 88]LoadErrors: New page: Loading map: AI_StarterMap.umap
+[2016.11.18-01.10.20:648][ 88]MapCheck: New page: Map Check
+[2016.11.18-01.10.20:648][ 88]LightingResults: New page: Lighting Build
+[2016.11.18-01.10.20:676][ 88]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.18-01.10.20:695][ 88]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.18-01.10.20:743][ 88]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.294ms to complete.
+[2016.11.18-01.10.20:743][ 88]LogFileHelpers: Loading map 'AI_StarterMap' took 0.108
+[2016.11.18-01.10.20:748][ 88]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_45548': EnvironmentQueryGraphNode_Option /Game/AI/Task_Decorator_Service/FindHidingSpot.FindHidingSpot:EnvironmentQueryGraph_1.EnvironmentQueryGraphNode_Option_15
+[2016.11.18-01.10.20:748][ 88]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_45546': EnvironmentQueryGraphNode_Root /Game/AI/Task_Decorator_Service/FindHidingSpot.FindHidingSpot:EnvironmentQueryGraph_1.EnvironmentQueryGraphNode_Root_1
+[2016.11.18-01.10.20:748][ 88]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_45547': EnvironmentQueryGraphNode_Option /Game/AI/Task_Decorator_Service/FindPlayer.FindPlayer:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Option_7
+[2016.11.18-01.10.20:748][ 88]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EdGraphPin_45545': EnvironmentQueryGraphNode_Root /Game/AI/Task_Decorator_Service/FindPlayer.FindPlayer:EnvironmentQueryGraph_0.EnvironmentQueryGraphNode_Root_0
+[2016.11.18-01.10.28:159][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/AI/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.18-01.10.28:159][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.18-01.10.28:159][945]PIE: New page: PIE session: AI_StarterMap (18 Nov 2016 10:10:28 pm)
+[2016.11.18-01.10.28:159][945]LogPlayLevel: Creating play world package: /Game/AI/UEDPIE_0_AI_StarterMap
+[2016.11.18-01.10.28:200][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041251s)
+[2016.11.18-01.10.28:201][945]LogAIModule: Creating AISystem for world AI_StarterMap
+[2016.11.18-01.10.28:201][945]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2016.11.18-01.10.28:201][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AI/AI_StarterMap.AI_StarterMap to /Game/AI/UEDPIE_0_AI_StarterMap.AI_StarterMap (0.041919s)
+[2016.11.18-01.10.28:212][945]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.18-01.10.28:216][945]LogInit: FAudioDevice initialized.
+[2016.11.18-01.10.28:262][945]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.18-01.10.28:274][945]LogWorld: Bringing World /Game/AI/UEDPIE_0_AI_StarterMap.AI_StarterMap up for play (max tick rate 0) at 2016.11.18-12.10.28
+[2016.11.18-01.10.28:279][945]LogWorld: Bringing up level for play took: 0.014962
+[2016.11.18-01.10.28:279][945]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.11.18-01.10.28:281][945]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 9 classes and 0 folders.
+[2016.11.18-01.10.28:286][945]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/AI/UEDPIE_0_AI_StarterMap.AI_StarterMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0: Material index 0 is invalid.
+[2016.11.18-01.10.28:292][945]PIE: Info Play in editor start time for /Game/AI/UEDPIE_0_AI_StarterMap 0.952
+[2016.11.18-01.10.28:292][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/AI/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.18-01.10.28:329][946]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:1941).
+[2016.11.18-01.10.28:568][964]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.28:585][966]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.28:603][968]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.28:694][979]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.29:010][ 17]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.29:161][ 35]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.29:203][ 40]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.29:219][ 42]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.29:478][ 73]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.29:611][ 89]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.29:711][101]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.29:736][104]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.29:944][129]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.30:069][144]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.30:211][161]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.30:220][162]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.30:369][180]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.30:578][205]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.30:721][222]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.30:763][227]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.30:955][250]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.30:979][253]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.31:155][274]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.31:172][276]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.31:439][308]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.31:481][313]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.31:722][342]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.31:747][345]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.31:897][363]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.31:997][375]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.32:139][392]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.32:215][401]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.32:406][424]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.32:589][446]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.32:623][450]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.32:750][464]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Patrol
+[2016.11.18-01.10.32:930][485]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.33:130][509]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.33:171][514]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.33:221][520]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] hit
+[2016.11.18-01.10.33:222][520]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Combat
+[2016.11.18-01.10.33:465][549]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.33:673][574]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.33:690][576]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.33:723][580]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Searching for Player
+[2016.11.18-01.10.34:021][615]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.34:102][624]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.34:160][631]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Searching for Player
+[2016.11.18-01.10.34:169][632]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.34:433][663]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.34:555][677]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.34:622][685]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.34:664][690]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Searching for Player
+[2016.11.18-01.10.34:922][721]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.35:028][733]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.35:044][735]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.35:199][753]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Combat
+[2016.11.18-01.10.35:389][775]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.35:480][786]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.35:593][799]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.35:643][805]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] hit
+[2016.11.18-01.10.35:643][805]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Combat
+[2016.11.18-01.10.35:915][837]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.35:990][846]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.36:081][857]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.36:128][862]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Flee
+[2016.11.18-01.10.36:354][889]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.36:485][904]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.36:510][907]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.36:543][911]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Flee
+[2016.11.18-01.10.36:862][949]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.36:970][962]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.37:045][971]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.37:112][979]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Flee
+[2016.11.18-01.10.37:425][ 16]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.37:425][ 16]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.37:534][ 29]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Flee
+[2016.11.18-01.10.37:558][ 32]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.37:897][ 72]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.37:988][ 83]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.37:997][ 84]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.38:022][ 87]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.38:446][138]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.38:481][142]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.38:564][152]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.38:581][154]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.38:980][202]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.38:997][204]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.39:105][217]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.39:155][223]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.39:430][256]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.39:438][257]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.39:531][268]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.39:606][277]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.39:881][310]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.40:022][327]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.40:055][331]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.40:089][335]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.40:289][359]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.40:514][386]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.40:539][389]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.40:573][393]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.40:698][408]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.41:031][448]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.41:031][448]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.41:081][454]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.41:173][465]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.41:464][500]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.41:539][509]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.41:623][519]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.41:715][530]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.42:031][568]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.42:048][570]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.42:165][584]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.42:215][590]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.42:456][619]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.42:481][622]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.42:632][640]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.42:715][650]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.42:948][678]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.43:040][689]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.43:131][700]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.43:156][703]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.43:440][737]LogBlueprintUserMessages: [BTS_DetectPlayer_GuardAI_C_0] Death
+[2016.11.18-01.10.43:523][747]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.43:598][756]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.43:639][761]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.43:982][802]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.44:065][812]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.44:115][818]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.44:523][867]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.44:556][871]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.44:556][871]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.45:023][927]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.45:032][928]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.45:040][929]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.45:482][981]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.45:591][994]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] idle
+[2016.11.18-01.10.45:612][996]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.45:910][ 31]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.46:018][ 44]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.46:168][ 62]LogBlueprintUserMessages: [BTS_States_HostageAI_C_1] flee
+[2016.11.18-01.10.46:279][ 75]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3543.922 Y=2511.888 Z=149.220] for [FirstPersonProjectile_C]
+[2016.11.18-01.10.46:314][ 79]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.46:464][ 97]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.46:792][135]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.46:893][147]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.47:392][207]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.47:442][213]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.47:851][262]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.47:876][265]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.48:313][317]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.48:346][321]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.48:771][372]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.48:837][380]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.49:205][424]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.49:321][438]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.49:629][475]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.49:821][498]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.50:230][547]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.50:288][554]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.50:679][601]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.50:854][622]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.51:146][657]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.51:339][680]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.51:688][722]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.51:855][742]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.52:222][786]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.52:439][812]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.52:755][850]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.52:889][866]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.53:189][902]LogBlueprintUserMessages: [BTS_DetectPlayer_EnemyAI_C_0] Patrol
+[2016.11.18-01.10.53:306][916]LogBlueprintUserMessages: [BTS_States_HostageAI_C_0] idle
+[2016.11.18-01.10.53:355][922]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/AI/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.18-01.10.53:398][922]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel' has LevelScriptBlueprint '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap' with GeneratedClass '/Game/AI/AI_StarterMap.AI_StarterMap_C' with ClassGeneratedBy '/Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.AI_StarterMap'
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight7_3.ArrowComponent0 and ArrowComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight7_3.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight8.ArrowComponent0 and ArrowComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight8.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight9.ArrowComponent0 and ArrowComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight9.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush100.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush100.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush101.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush101.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush102.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush102.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush103.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush103.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush104.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush104.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:044][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush105.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush105.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush11.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush11.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush19.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush19.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush20.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush20.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush21.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush21.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush22.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush22.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush23.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush23.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush24.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush24.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush25.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush25.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush26.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush26.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush27.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush27.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush28.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush28.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush29_28.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush29_28.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush30_30.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush30_30.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush31.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush31.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush32.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush32.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush33.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush33.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush34.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush34.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush35.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush35.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush36.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush36.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush37.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush37.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush38.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush38.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush39.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush39.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush40.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush40.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush41_88.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush41_88.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush42.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush42.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush43.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush43.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush44.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush44.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush45.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush45.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush46.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush46.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush47.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush47.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush48.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush48.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush49.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush49.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush50.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush50.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush51.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush51.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush52.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush52.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush53.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush53.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush54.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush54.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush55.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush55.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush56.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush56.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush57.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush57.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush58.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush58.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush59.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush59.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush60.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush60.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush61.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush61.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush62.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush62.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:045][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush63.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush63.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush64.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush64.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush65.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush65.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush66.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush66.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush67.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush67.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush68.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush68.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush69.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush69.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush70.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush70.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush71.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush71.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush72_132.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush72_132.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush73.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush73.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush74.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush74.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush75.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush75.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush76.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush76.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush77.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush77.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush78.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush78.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush79.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush79.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush80.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush80.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush81.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush81.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush82.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush82.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush83.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush83.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush85.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush85.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush86.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush86.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush87_165.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush87_165.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush88_167.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush88_167.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush89.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush89.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush90.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush90.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush91.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush91.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:046][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush92.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush92.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush93.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush93.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush94_171.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush94_171.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush95.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush95.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush96.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush96.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush97.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush97.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush98.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush98.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.BoxBrush99.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.BoxBrush99.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush10.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush10.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush11.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush11.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush12.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush12.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush13.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush13.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush14.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush15.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush15.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush2_32.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush2_32.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush3.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush3.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush4.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush4.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush5.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush5.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush6.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush6.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush7.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush7.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush8.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush8.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.LinearStairBrush9.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.LinearStairBrush9.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:047][951]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0 and BrushComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.NavMeshBoundsVolume_1.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:081][951]LogUObjectGlobals:Warning: Guid is in use by SpotLightComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight7_3.LightComponent0 and SpotLightComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight7_3.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:081][951]LogUObjectGlobals:Warning: Guid is in use by SpotLightComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight8.LightComponent0 and SpotLightComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight8.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:081][951]LogUObjectGlobals:Warning: Guid is in use by SpotLightComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.SpotLight9.LightComponent0 and SpotLightComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.SpotLight9.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube10.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube11.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube11.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube12.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube12.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube13.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube14.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube14.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube15.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube15.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube16.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube17_28.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube17_28.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube18.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube18.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube19.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube19.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube2.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube3.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.11.18-01.11.02:082][951]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/AI/AI_StarterMap.AI_StarterMap:PersistentLevel.Cube4.StaticMeshComponent0 and StaticMeshComponent /Game/AI/AI_mainMap.AI_mainMap:PersistentLevel.Cube4.StaticMeshComponent0, which should never happ
