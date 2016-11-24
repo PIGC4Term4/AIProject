@@ -6,7 +6,7 @@ Deadline for submission is end of day on Tuesday 29th.
 --------------------------------------------------------------------------------
 Bonus Map
 
-Create a new map for AI project
+Create a new map for AI project. 
 Complete all or any of this activity to count towards credit in the completion of the units in the course.
 
 AI
