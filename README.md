@@ -1,22 +1,42 @@
 # AIProject
 
-Team members can make pushes to their branch only. The following team members can now push to their branch:
+Submit your AI Project by pushing your project files to your branch.
+Deadline for submission is end of day on Tuesday 29th.
 
-LIMBRICK, J
+--------------------------------------------------------------------------------
+Bonus Map
 
-HOCKING, C
+Create a new map for AI project
+Complete all or any of this activity to count towards credit in the completion of the units in the course.
 
-ZAMANIAN, D
+AI
 
-CARROLL, L
+Create an AI that has different behaviours to what he have done so far in class.
 
-LA GALLE, C
+States of the AI character
 
-SHIELD, N
+State 1
+Condition of being in this state
 
-CRAIG, L
+State 2
+Condition of being in this state
 
-VONG, N
+State 3
+Condition of being in this state
 
+State 4
+Condition of being in this state
 
-If your name is not listed, confirm I have your GitHub username and you accepted the invitation to this repo that was sent by email.
+Intermediate Level Programming Skills
+
+Demonstrate an intermediate level of programming skills in blueprints. Include comments in your code to show your understanding of the code.
+( Blueprints other than those included in Unreal templates and code provided in class )
+
+Loading Saving and Sorting Data
+Use at least 4 data types in a game such as Health, Score, Coin etc.
+Save, load and sort this data in a game.
+The condition the data is saved?
+
+The condition the data is loaded?
+
+How does the player know what data is saved or loaded?
