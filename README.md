@@ -44,9 +44,10 @@ Demonstrate an intermediate level of programming skills in blueprints. Include c
 
 ---------
 
-Loading Saving and Sorting Data
+Loading Saving and Sorting Data to an Interface
 
 Use at least 4 data types in a game such as Health, Score, Coin etc.
+Display this data to a HUD or other interface.
 
 Save, load and sort this data in a game.
 
@@ -54,4 +55,4 @@ The condition the data is saved?
 
 The condition the data is loaded?
 
-How does the player know what data is saved or loaded?
+
