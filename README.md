@@ -10,6 +10,7 @@ Create a new map for AI project.
 
 Complete all or any of this activity to count towards credit in the completion of the units in the course.
 
+
 ---------
 
 AI
@@ -33,12 +34,14 @@ Condition of being in this state
 State 4
 
 Condition of being in this state
+
 ---------
 
 Intermediate Level Programming Skills
 
 Demonstrate an intermediate level of programming skills in blueprints. Include comments in your code to show your understanding of the code.
 ( Blueprints other than those included in Unreal templates and code provided in class )
+
 ---------
 
 Loading Saving and Sorting Data
