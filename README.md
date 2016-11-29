@@ -1,12 +1,12 @@
 # AIProject
 
-Daniel's Branch
+Daniel's Branch.
 
 
-Uploaded project to OneDrive
+Uploaded project to OneDrive.
 
 
-The PatrolEnemyAI has a problem where the Animation does not stay attatched after closing and relaunching Unreal. Please go to:
+The PatrolEnemyAI has a problem where the Animation does not stay attached after closing and relaunching Unreal. Please go to:
 
 Content\AI\PatrolEnemyAI
 
